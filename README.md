@@ -32,7 +32,7 @@ All raw files are in `data/raw/`.
 
 | Table | Description | Rows x Cols | Key Fields | Acquisition Method | License / Terms |
 |-------|-------------|-------------|------------|--------------------|-----------------|
-| sales_transactions.csv | Transaction line items | 123,927 x 15 | transaction_id, transaction_date, customer_id, store_id, product_id, quantity, unit_cost_kes, unit_price_kes, gross_sales_kes, promo_id, discount_amount_kes, net_sales_kes, cogs_kes, gross_profit_kes, payment_method | Synthetic, generated | Synthetic data, free to use for this project |
+| sales_transactions.csv | Transaction line items | 113,377 x 15 | transaction_id, transaction_date, customer_id, store_id, product_id, quantity, unit_cost_kes, unit_price_kes, gross_sales_kes, promo_id, discount_amount_kes, net_sales_kes, cogs_kes, gross_profit_kes, payment_method | Synthetic, generated | Synthetic data, free to use for this project |
 | customers.csv | Customer master directory | 1,200 x 8 | customer_id, customer_name, gender, age, county, signup_date, preferred_payment_method, loyalty_tier | Synthetic, generated | Synthetic data, free to use for this project |
 | stores.csv | Retail branch network | 10 x 7 | store_id, store_name, county, sub_county, store_format, sqft, opening_date | Synthetic, generated | Synthetic data, free to use for this project |
 | products.csv | FMCG product catalog | 15 x 6 | product_id, product_name, category, sub_category, unit_cost_kes, unit_price_kes | Synthetic, generated | Synthetic data, free to use for this project |
