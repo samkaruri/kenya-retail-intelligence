@@ -1,0 +1,11 @@
+store_id,store_name,county,sub_county,store_format,sqft,opening_date
+STR_001,Nairobi Megastore - Westlands,Nairobi,Westlands,Hypermarket,25000,3/15/2019
+STR_002,Nairobi Express - CBD,Nairobi,Starehe,Supermarket,8500,6/1/2020
+STR_003,Nairobi Local - Eastlands,Nairobi,Embakasi,Supermarket,3500,1/10/2021
+STR_004,Mombasa Coastal Superstore,Mombasa,Nyali,Hypermarket,20000,11/20/2019
+STR_005,Mombasa Express - Likoni,Mombasa,Likoni,Supermarket,7500,8/14/2021
+STR_006,Kiambu Hub Store,Kiambu,Kiambu Town,Supermarket,12000,2/1/2020
+STR_007,Ruiru QuickStop,Kiambu,Ruiru,Convenience,3000,3/22/2022
+STR_008,Nakuru Great Rift Branch,Nakuru,Nakuru East,Supermarket,10000,9/5/2020
+STR_009,Kisumu Lakefront Mall,Kisumu,Kisumu Central,Hypermarket,18000,5/18/2021
+STR_010,Eldoret Highlands Store,Uasin Gishu,Ainabkoi,Supermarket,9500,1/15/2022

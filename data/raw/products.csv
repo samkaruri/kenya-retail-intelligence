@@ -1,0 +1,16 @@
+product_id,product_name,category,sub_category,unit_cost_kes,unit_price_kes
+PRD_001,Unga Wa Doti Maize Meal 2kg,Dry Foods,Maize Flour,160,210
+PRD_002,Pembe Wheat Flour 2kg,Dry Foods,Wheat Flour,155,195
+PRD_003,Pwani Cooking Oil 3L,Dry Foods,Edible Oils,520,680
+PRD_004,Maziwa Fresh Milk 500ml,Dairy,Fresh Milk,48,65
+PRD_005,Bio Premium Yogurt 250ml,Dairy,Yogurt,85,120
+PRD_006,Festive Bread Loaf 400g,Bakery,Bread,50,65
+PRD_007,Mandazi Pack (4pcs),Bakery,Pastries,30,50
+PRD_008,Kericho Gold Tea Bags 100s,Beverages,Tea,210,290
+PRD_009,Coca Cola 1.25L Pet,Beverages,Soft Drinks,90,130
+PRD_010,Geisha Bath Soap 225g,Personal Care,Soaps,110,160
+PRD_011,Colgate Herbal Toothpaste 140g,Personal Care,Oral Care,140,200
+PRD_012,Omo Washing Powder 1kg,Household,Detergents,230,320
+PRD_013,Jik Bleach Regular 750ml,Household,Cleaning,130,185
+PRD_014,Fresh Red Tomatoes (1kg),Fresh Produce,Vegetables,70,110
+PRD_015,Sweet Red Apples (Pack of 3),Fresh Produce,Fruits,110,160
