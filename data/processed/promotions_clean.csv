@@ -1,0 +1,10 @@
+promo_id,promo_name,discount_pct
+PROMO_NONE,No Promotion,0
+PROMO_EASTER25,Easter Super Savings 2025,10
+PROMO_MADARAKA25,Madaraka Day Deals 2025,15
+PROMO_SCHOOL25,Back to School Bonanza 2025,12
+PROMO_XMAS25,Festive Mega Sale 2025,20
+PROMO_EASTER26,Easter Super Savings 2026,10
+PROMO_MADARAKA26,Madaraka Day Deals 2026,15
+PROMO_SCHOOL26,Back to School Bonanza 2026,12
+PROMO_XMAS26,Festive Mega Sale 2026,20

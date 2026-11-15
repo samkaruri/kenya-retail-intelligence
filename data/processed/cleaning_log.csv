@@ -1,0 +1,21 @@
+step,table,rows_before,rows_after,values_fixed,note
+0. raw load,sales,113377,113377,0,15 columns
+0. raw load,customers,1200,1200,0,8 columns
+0. raw load,stores,10,10,0,7 columns
+0. raw load,products,15,15,0,6 columns
+0. raw load,promotions,9,9,0,3 columns
+0. raw load,census,47,47,0,11 columns
+0. raw load,inflation,45,45,0,4 columns
+0. raw load,holidays,98,98,0,3 columns
+1. types,sales,113377,113377,113377,transaction_date text; other columns already correct
+1. types,customers,1200,1200,1200,signup_date text (month first) -> datetime
+1. types,stores,10,10,10,opening_date text (month first) -> datetime
+1. types,holidays,98,98,98,Date text (month first) -> datetime
+1. types,census,47,47,376,"8 numeric columns: text with commas -> int; total population 47,564,316"
+2. missing,sales,113377,113377,5735,customer_id blank -> 'GUEST' (is_guest flag added)
+2. missing,sales,113377,113377,2300,payment_method blank -> 'Unknown'
+3. duplicates,sales,113377,113168,209,209 fully identical rows removed (kept first copy); other 7 tables had none
+4. validity,sales,113168,113168,35835,7 promo_ids with year labels 23/24 remapped to 25/26 (dates and discount rates match); original kept in promo_id_raw
+4. outliers,sales,113168,113168,0,"no outliers removed: quantity 1-5, prices/costs match catalogue, arithmetic and discounts reconcile"
+5. integrity,sales,113168,113168,12959,"before_signup flag added: transactions dated before customer signup_date (561 customers, all 2025 signups); signup_date not used for tenure, first observed purchase used instead"
+1. types,inflation,45,45,45,Year + Month name -> month_start datetime (first of month); sorted oldest to newest
